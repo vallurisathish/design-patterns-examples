@@ -7,6 +7,13 @@
     <groupId>com.sathish</groupId>
     <artifactId>design-patterns-examples</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

@@ -1,7 +1,7 @@
 package factory_pattern;
 
 /**
- * Created by vallus on 06/05/17.
+ * Simple factory shows two different concrete products being created using the ProductFactory.
  */
 public class ProductFactory {
 

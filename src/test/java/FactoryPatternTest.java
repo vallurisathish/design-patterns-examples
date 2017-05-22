@@ -1,3 +1,4 @@
+import factory_pattern.Product;
 import factory_pattern.ProductFactory;
 import org.junit.Test;
 
@@ -9,8 +10,8 @@ public class FactoryPatternTest {
     @Test
     public void testFactoryPattern() {
         ProductFactory productFactory = new ProductFactory();
-        productFactory.createProduct("A");
-        productFactory.createProduct("B");
+        Product productA = productFactory.createProduct("A");
+        Product productB = productFactory.createProduct("B");
     }
 
 }
